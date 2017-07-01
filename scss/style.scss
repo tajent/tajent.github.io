@@ -1,0 +1,175 @@
+body {
+  background: url(http://www.babaimage.com/images/use-this-background-in-your-picaboo-photo-book-9.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  font-size: 18px;
+  max-width: 80%;
+  padding-left: 17%;
+  padding-bottom: 2%;
+  color: white;
+}
+
+h1 {
+  font-family: Lobster;
+  color: white;
+}
+
+h3 {
+  color: grey;
+  text-align: center;
+  font-family: Permanent Marker
+}
+
+a {
+  color: white;
+  &:hover {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.80);
+  }
+}
+
+#About {
+  padding-top: 50px;
+}
+
+#Portfolio {
+  padding-top: 50px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.col-xs-12,
+.col-sm-6,
+.col-md-4 {
+  padding: 35px;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 3px 3px 3px #777;
+  -moz-box-shadow: 3px 3px 3px #777;
+  box-shadow: 3px 3px 3px #777;
+  padding: 10px 10px 20px;
+}
+
+.fa {
+  padding: 5px;
+}
+
+.jumbotron h1 {
+  color: white;
+  font-size: 36px;
+}
+
+.jumbotron p {
+  font-weight: 300;
+}
+
+.about-container {
+  background-color: #ADD8E6;
+}
+
+.about-image {
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.portfolio-text {
+  margin-bottom: 20px;
+}
+
+.firstlast-thumbnail {
+  -webkit-transform: rotate(-1deg);
+  -moz-transform: rotate(-1deg);
+  transform: rotate(-1deg);
+  -webkit-backface-visibility: hidden;
+}
+
+.second-thumbnail {
+  -webkit-transform: rotate(2deg);
+  -moz-transform: rotate(2deg);
+  transform: rotate(2deg);
+}
+
+.third-thumbnail {
+  -webkit-transform: rotate(-2deg);
+  -moz-transform: rotate(-2deg);
+  transform: rotate(-2deg);
+}
+
+.fourth-thumbnail {
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  transform: rotate(3deg);
+}
+
+/* Sellotape for poloroid thumbnail */
+.firstlast-thumbnail:before,
+.third-thumbnail:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 75px;
+  top: 20px;
+  width: 75px;
+  height: 25px;
+  background-color: #dedcc6;
+  background-color: rgba(222, 220, 198, 0.7);
+  -webkit-transform: rotate(-12deg);
+  -moz-transform: rotate(-12deg);
+  -o-transform: rotate(-12deg);
+  -ms-transform: rotate(-12deg);
+  transform: rotate(-12deg);
+}
+
+/* Sellotape for poloroid thumbnail */
+.second-thumbnail:before,
+.fourth-thumbnail:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 170px;
+  top: 20px;
+  width: 65px;
+  height: 25px;
+  background-color: #dedcc6;
+  background-color: rgba(222, 220, 198, 0.7);
+  -webkit-transform: rotate(12deg);
+  -moz-transform: rotate(12deg);
+  -o-transform: rotate(12deg);
+  -ms-transform: rotate(12deg);
+  transform: rotate(12deg);
+}
+
+/* Give image vintage effect */
+.vintage {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.vintage:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-shadow: inset 0 0 20px #696969, inset 0 0 20px #696969, inset 0 0 20px #696969;
+  -moz-transition: all 1s;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all .1s;
+}
+
+.contact-container {
+  background-color: transparent;
+}
