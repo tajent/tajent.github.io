@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+}
+
+h1 {
+    font-family: Shadows Into Light;
+}
+
+.container-color {
+  background-color: black;
+}
+
+.text-margin {
+  margin: auto;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.medium-image {
+    width: 450px;
+  }
+
+.smaller-image {
+    width: 250px;
+    border: 0.5px solid #c5c4c4;
+  }
+
+.grid-padding {
+    padding: 60px 40px 20px 0;
+}
