@@ -3,7 +3,6 @@
 <head>
 	<title>Weather Web here!</title>
 	<script src="js/jquery-3.1.1.min.js"></script>
-	<script src="js/weather.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/weather.css">
 </head>
 
@@ -15,11 +14,14 @@
     </div>
     <div class="row text-center">
       <div class="col-xs-12">
-        <span class="temperature"></span><span id="unit">&deg;C</span>
+        <span><p class="temperature"></p></span>
+				<span><button id = celcius>&deg;C</button></span>
+				<span><button id = fahrenheit>&deg;F</button></span>
       </div>
     </div>
     <div class="row text-center">
-      <div class="col-xs-12 city">
+      <div class="col-xs-12">
+				<p class="city"></p>
 
 
       </div>
@@ -34,5 +36,5 @@
   </div>
 
 </body>
-
+<script src="js/weather.js"></script>
 </html>

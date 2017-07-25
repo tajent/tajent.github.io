@@ -7,4 +7,20 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  font-family: arial;
+}
+
+button {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: small;
+}
+
+.temperature {
+  font-size: x-large;
+  margin: 0;
 }
