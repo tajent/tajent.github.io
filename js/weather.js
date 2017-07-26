@@ -57,6 +57,7 @@ if (navigator.geolocation) {
     console.log('Checking weather...');
     $.getJSON(buildWeatherUrl(position.coords), function(json) {
       console.log("Got weather, updating page");
+      $(".loader").hide();
 
   		temp = parseInt(json.currently.temperature);
       $(".temperature").html(temp);
@@ -65,13 +66,6 @@ if (navigator.geolocation) {
       $(".city").html(json.timezone);
       $(".weather_type").html(json.currently.icon);
       showWeather(json.currently.icon)
-      /*if (json.currently.icon == "rain") {
-        updateBackground("/img/clouds.jpg");
-      } else if (json.currently.icon == "cloudy") {
-        updateBackground("/img/rain.jpg");
-      } else {
-        updateBackground("/img/default.jpg");
-      }*/
     });
   });
   function showCelsius() {
