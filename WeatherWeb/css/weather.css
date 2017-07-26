@@ -1,0 +1,59 @@
+div {
+  text-align: center;
+}
+
+body {
+  background-size: cover;
+  font-family: arial;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('/img/default.jpg') no-repeat center center fixed;
+}
+
+button {
+  color: white;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5em;
+}
+
+p {
+  color: white;
+  font-size: x-large;
+}
+
+#cel {
+  font-size: large;
+}
+
+#far {
+  font-size: small;
+}
+
+.temperature {
+  font-size: xx-large;
+  margin: 0;
+}
+
+.weather_type {
+  margin: 0;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("/img/ajax-loader.gif") no-repeat center center rgba(0,0,0,0.25)
+
+}
