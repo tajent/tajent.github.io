@@ -9,31 +9,29 @@
 <body id="body">
 
   <div class="container-fluid">
+		<!-- This is a comment <div class = transbox> -->
     <div class="row text-center">
       <h1>Current Weather</h1>
     </div>
     <div class="row text-center">
       <div class="col-xs-12">
         <span><p class="temperature"></p></span>
-				<span><button id = celcius>&deg;C</button></span>
-				<span><button id = fahrenheit>&deg;F</button></span>
+				<span><button id="cel" onclick="showCelsius()"></button></span>
+				<span><button id="far" onclick="showFahrenheit()"></button></span>
       </div>
     </div>
     <div class="row text-center">
       <div class="col-xs-12">
 				<p class="city"></p>
-
-
       </div>
     </div>
     <div class="row text-center">
       <div class="col-xs-12 type">
-
-
+				<p class="weather_type"></p>
       </div>
     </div>
-
-  </div>
+  <!-- </div> -->
+</div>
 
 </body>
 <script src="js/weather.js"></script>

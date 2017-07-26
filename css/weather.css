@@ -3,24 +3,64 @@ div {
 }
 
 body {
-  background: url('/img/rain.jpg') no-repeat center center fixed;
+  /*background: url('/img/rain.jpg') no-repeat center center fixed;*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   font-family: arial;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url('/img/default.jpg') no-repeat center center fixed;
 }
 
 button {
-    background-color: transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    font-size: small;
+  color: white;
+  background-color: transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: x-large;
+}
+
+/*div.transbox {
+  margin-left: 480px;
+  margin-right: 480px;
+  background-color: rgba(158, 158, 158, 0.28);
+}
+
+.type {
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+}*/
+
+#cel {
+  font-size: large;
+}
+
+#far {
+  font-size: small;
 }
 
 .temperature {
-  font-size: x-large;
+  font-size: xx-large;
+  margin: 0;
+}
+
+.weather_type {
   margin: 0;
 }
