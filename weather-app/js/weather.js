@@ -47,7 +47,7 @@ if (navigator.geolocation) {
     }
 
     function buildWeatherUrl(coords) {
-      return "https://crossorigin.me/https://api.darksky.net/forecast/4924a4b17c6e9ad716b4b67b4c27b67f/"
+      return "https://cors-anywhere.herokuapp.com/https://api.darksky.net/forecast/4924a4b17c6e9ad716b4b67b4c27b67f/"
         + coords.latitude
         + ","
         + coords.longitude
